@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "n_rows": 8000,
+  "anomaly_rate": 0.03,
+  "roc_auc": 0.8517724441580756,
+  "precision_at_budget": 0.1875,
+  "recall_at_budget": 0.0625,
+  "f1_at_budget": 0.09375,
+  "feature_columns": [
+    "session_duration",
+    "hour",
+    "dayofweek",
+    "is_off_hours",
+    "command_len",
+    "unique_commands",
+    "is_password_auth",
+    "home_geo_match",
+    "usual_auth_match",
+    "usual_resource_match",
+    "known_device_match",
+    "duration_z",
+    "drift_score",
+    "hour_sin",
+    "hour_cos",
+    "entity_type",
+    "geo_location",
+    "auth_method",
+    "resource_accessed"
+  ],
+  "numeric_cols": [
+    "session_duration",
+    "hour",
+    "dayofweek",
+    "is_off_hours",
+    "command_len",
+    "unique_commands",
+    "is_password_auth",
+    "home_geo_match",
+    "usual_auth_match",
+    "usual_resource_match",
+    "known_device_match",
+    "duration_z",
+    "drift_score",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "categorical_cols": [
+    "entity_type",
+    "geo_location",
+    "auth_method",
+    "resource_accessed"
+  ]
+}
